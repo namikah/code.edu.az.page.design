@@ -1,1 +1,1 @@
-# code.edu.az.page.design
+# code.edu.az saytinin esas sehifesinin gorunusu.
