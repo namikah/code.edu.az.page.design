@@ -1,0 +1,738 @@
+.fixed-image{
+    background-image: url("https://code.edu.az/media/settings/02.jpg");
+    height: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.top-header-left-side{
+padding: 20px 0px;
+text-align: left;
+}
+
+.top-header-left-side span{
+    font-family: Visby CF;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.top-header-right-side{
+    font-family: Visby CF;
+    text-align: right;
+}
+
+.top-header-right-side .social-media-icon{
+    display: inline-block;
+}
+
+.top-header-right-side .social-media-icon li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.top-header-right-side span{
+    display: inline-block;
+    color: black;
+    background-color: yellow;
+    padding: 20px 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.top-header-right-side span:hover{
+    background-color: orange;
+}
+
+.top-slider{
+    width: 100%;
+}
+
+.top-slider img{
+    width: 100%;
+}
+
+#education{
+    font-family: Visby CF;
+    color: black;
+    margin-top: 80px;
+}
+
+.education-title .bold{
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+
+.education-title .light{
+    font-size: 60px;
+    font-weight: 100;
+    opacity: 70%;
+    margin-bottom: 15px;
+}
+
+.education-title h2{
+    font-size: 50px;
+}
+
+.education-title .tittle-snippet{
+    margin-bottom: 15px;
+    padding: 0 100px 0 0px;
+}
+
+.education-title a.read-more{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    transition: 1s;
+}
+
+.education-title a.read-more:hover{
+  padding-right: 20px;
+}
+
+.education-title svg{
+  width: 8px;
+  height: 15px;
+  margin-left: 10px;
+  transition: 1s;
+  padding-top: 5px;
+}
+
+.motion-design-2d{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.motion-design-2d:hover{
+    background-color: crimson;
+    transform: scale(1.2);
+}
+
+.motion-design-2d h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.motion-design-2d .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-marketting{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.digital-marketting:hover{
+    background-color: darkmagenta;
+    transform: scale(1.2);
+}
+
+.digital-marketting h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-marketting .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-memarliq{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.digital-memarliq:hover{
+    background-color: #fd7e14;
+    transform: scale(1.2);
+}
+
+.digital-memarliq h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.digital-memarliq .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.programming-area{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.programming-area:hover{
+    background-color: #007bff;
+    transform: scale(1.2);
+}
+
+.programming-area h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.programming-area .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.graphic{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.graphic:hover{
+    background-color: #ffc107;
+    transform: scale(1.2);
+}
+
+.graphic h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.graphic .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.system{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.system:hover{
+    background-color: #28a745;
+    transform: scale(1.2);
+}
+
+.system h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.system .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.ux-ui{
+    border: 1px solid gray;
+    padding: 50%;
+    position: relative;
+    transition: .5s;
+}
+
+.ux-ui:hover{
+    background-color: #ffc107;
+    transform: scale(1.2);
+}
+
+.ux-ui h3{
+    position: absolute;
+    width: 200px;
+    left: 20px;
+    bottom: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+.ux-ui .svg-animation{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-family: Visby CF;
+}
+
+#statistics-student{
+    font-family: Visby CF;
+    color: black;
+    position: relative;
+    padding: 80px 0px;
+}
+
+#statistics-student .student-count .first{
+    color: #323232;
+    font-weight: 200;
+    margin: 0 180px;
+    font-size: 37px;
+    background-color: white;
+    padding: 12px 50px;
+    top: 220px;
+    position: absolute;
+}
+
+#statistics-student .student-count .second{
+    color: #323232;
+    border: 4px solid #323232;
+    margin: 0 340px;
+    font-weight: 200;
+    font-size: 37px;
+    background-color: white;
+    padding: 12px 50px;
+    top: 280px;
+    position: absolute;
+}
+
+#why-code{
+    font-family: Visby CF;
+    color: black;
+    padding: 30px 0px;
+}
+
+#why-code .title{
+    position: relative;
+}
+
+#why-code .title span {
+    font-family: Visby CF;
+    margin-bottom: -10px;
+    font-size: 50px;
+    display: block;
+    font-weight: 300;
+    color: #323232;
+  }
+
+#why-code .title h1 {
+    font-family: Visby CF;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  #why-code .title::after {
+    content: "";
+    background-image: linear-gradient(to right, green, rgb(255, 0, 191),yellow);
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    position: absolute;
+    top: 130px;
+    left: 0;
+  }
+
+  #why-code .title .description {
+    font-family: sans-serif;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 600px;
+  }
+
+  #why-code .col-items {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    transition: all 0.3s;
+    width: 100%;
+    height: 300px;
+  }
+
+  #why-code .col-items:hover {
+    background-color: whitesmoke;
+  }
+
+  #why-code .col-items .content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    margin: 25px 0px;
+    color: #323232;
+  }
+
+  #why-code .col-items .content span{
+    color: #323232;
+    display: block;
+  }
+
+  #why-code .col-items .content p {
+    margin-top: 25px;
+    max-height: 72px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #why-code .col-items .image img{
+     height: 196px;
+     width: 196px;
+     object-fit: cover;
+  }
+
+  #partners{
+    color: black;
+    padding: 80px 0px;
+  }
+
+  #partners .title{
+    font-family: sans-serif;
+    color:#323232;
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  #partners .title .light{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: -20px;
+  }
+
+  #partners .title .bold{
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  #partners .title p{
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: center;
+      margin-top: 25px;
+      position: relative;
+  }
+
+  #partners .title p::after{
+    content: "";
+    background-image: linear-gradient(to right, green, rgb(255, 0, 191),yellow);
+    width: 100px;
+    height: 3px;
+    background-color: crimson;
+    position: absolute;
+    margin: 30px 200px;
+    display: block;
+  }
+
+  #partners .partners-logo{
+      margin: 250px auto;
+      text-align: center;
+    }
+
+    #partners .partners-logo [class*="logo"]{
+      filter: grayscale(1);
+      transition: .5s;
+    }
+
+    #partners .partners-logo .logo1:hover{
+      filter: grayscale(0);
+    }
+
+    #partners .partners-logo .logo2:hover{
+      filter: grayscale(0);
+    }
+
+    #partners .partners-logo .logo3:hover{
+      filter: grayscale(0);
+    }
+
+  #partners .partners-logo img{
+    height: 80px;
+    width: 200px;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+#partners .gelecek-burada{
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  #partners .gelecek-burada h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: -20px;
+  }
+
+  #partners .gelecek-burada p{
+      font-family: sans-serif;
+      color:#323232;
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: center;
+      margin: 30px 0px 10px 0px;
+  }
+
+  #partners .gelecek-burada a{
+      font-weight: 900;
+      color:#323232;
+      text-decoration: none;
+      position: relative;
+  }
+
+  #partners .gelecek-burada a::after{
+    content: "";
+    background-color: #ffe700;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    margin: 2px 150px;
+    display: block;
+  }
+
+  #contact-us{
+    margin-top: 150px;
+    color: black;
+    padding: 80px 0px;
+    background-image: url("https://code.edu.az/media/settings/Sualiniz-var_c3Xp8Bz.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+
+  #contact-us{
+    font-family: 'Times New Roman', Times, serif;
+    color:#323232;
+    padding: 80px 0px;
+  }
+
+  #contact-us .title{
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    text-align: left;
+  }
+
+  #contact-us .title .light{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: -20px;
+  }
+
+  #contact-us .title .bold{
+    padding-left: 50px;
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  #contact-us .title p{
+      padding-left: 50px;
+      font-size: 17px;
+      width: 390px;
+      line-height: 25px;
+      letter-spacing: normal;
+      text-align: left;
+      margin-top: 30px;
+  }
+
+  #contact-us .input-name{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-name .name{
+    width: 95%;
+    height: 60px;
+    border: 1px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-name .surname{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-phone{
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  #contact-us .input-phone .number{
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 30%;
+  }
+
+  #contact-us .input-phone .prefix{
+    width: 20%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+    left: 0px;
+    position: absolute;
+  }
+
+  #contact-us .input-tedris-proqrami{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-tedris-proqrami .tedris-proqrami{
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-submit-btn{
+    margin-bottom: 15px;
+  }
+
+  #contact-us .input-submit-btn .submit{
+    cursor: pointer;
+    background-color: #ffe700;
+    width: 100%;
+    height: 60px;
+    border: 0px solid #fff;
+    padding-left: 20px;
+  }
+
+  #contact-us .input-submit-btn .submit:hover{
+    background-color:orange;
+  }
+
+  #top-footer{
+    padding: 30px 0px;
+  }
+
+  #top-footer .top-menu{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+    background-position: center;
+  }
+
+  #top-footer .top-menu li{
+    list-style: none;
+    padding: 8px 0;
+  }
+
+  #top-footer .top-menu li:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffe700;
+  }
+
+  #top-footer .top-menu .category-education{
+    padding-left: 100px;
+    }
+
+  #top-footer .top-menu .category-talent{
+    float: right;
+  }
+
+  #top-footer .top-menu h4{
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+  }
+
+  #top-footer .top-menu a{
+    text-decoration: none;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 15px;
+    opacity: 60%;
+  }
+
+  #middle-footer{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    color:#323232;
+    padding: 30px 0px;
+  }
+
+  #middle-footer .middle-menu{
+    text-align: center;
+  }
+
+  #middle-footer .middle-menu a{
+    color:#323232;
+    text-decoration: none;
+  }
+
+  #bottom-footer{
+    font-family: sans-serif;
+    color:#323232;
+    padding: 40px 0px ;
+  }
+
+  #bottom-footer .bottom-menu{
+    text-align: center;
+    line-height: 50px;
+  }
+
+#bottom-footer .bottom-menu .social-media-icon li{
+    display: inline-block;
+    margin-left: 20px;
+}
