@@ -50,12 +50,44 @@ text-align: left;
 }
 
 .top-slider{
-    width: 100%;
+  background-image: url("https://code.edu.az/media/slider/Digital.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-top: -50px;
 }
 
-.top-slider img{
-    width: 100%;
+.header-navbar-flex{
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
 }
+
+.header-navbar-flex li{
+  display: inline-block;
+  padding: 0 30px;
+  }
+
+  .header-navbar-flex li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .header-navbar-flex li:hover{
+    transform: scale(1.2);
+  }
+
+  .header-navbar-flex img{
+    width: 110px;
+    height: 50px;
+  }
 
 #education{
     font-family: Visby CF;
@@ -113,7 +145,8 @@ text-align: left;
 
 .motion-design-2d:hover{
     background-color: crimson;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .motion-design-2d h3{
@@ -144,7 +177,8 @@ text-align: left;
 
 .digital-marketting:hover{
     background-color: darkmagenta;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .digital-marketting h3{
@@ -175,7 +209,8 @@ text-align: left;
 
 .digital-memarliq:hover{
     background-color: #fd7e14;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .digital-memarliq h3{
@@ -206,7 +241,8 @@ text-align: left;
 
 .programming-area:hover{
     background-color: #007bff;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .programming-area h3{
@@ -237,7 +273,8 @@ text-align: left;
 
 .graphic:hover{
     background-color: #ffc107;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .graphic h3{
@@ -268,7 +305,8 @@ text-align: left;
 
 .system:hover{
     background-color: #28a745;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .system h3{
@@ -299,7 +337,8 @@ text-align: left;
 
 .ux-ui:hover{
     background-color: #ffc107;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    z-index: 9999;
 }
 
 .ux-ui h3{
@@ -406,7 +445,8 @@ text-align: left;
   }
 
   #why-code .col-items:hover {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    box-shadow: 5px 5px 5px 5px whitesmoke;
   }
 
   #why-code .col-items .content {
